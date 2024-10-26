@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.Remoting.Messaging;
 using System.Text;
 using System.Windows.Forms;
 
@@ -41,6 +42,9 @@ namespace Exponents
 
             /* calculate the cube of the number and add it to the output - 
              * do this by creating a method as in the squaring example above */
+            int cubeAnswer = Cube(num);
+            UxOutputLabel.Text += " \n Cube is " + Cube(num).ToString();
+
 
             // OUTPUT
             // set the output to visible
@@ -56,10 +60,12 @@ namespace Exponents
             return num * num;
         }
 
-        //public int Cube(int num)
-        //{
-        //    // we will create this code in class
-        //}
+        public int Cube(int num)
+        {
+            // we will create this code in class
+            return num * num * num;
+        }
+            
 
         private void xResetButton_Click(object sender, EventArgs e)
         {
