@@ -1,6 +1,6 @@
 ﻿namespace Exponents
 {
-    partial class Form1
+    partial class Exponents
     {
         /// <summary>
         /// Required designer variable.
@@ -37,7 +37,7 @@
             // 
             // UxInputTextBox
             // 
-            this.UxInputTextBox.Location = new System.Drawing.Point(92, 45);
+            this.UxInputTextBox.Location = new System.Drawing.Point(108, 26);
             this.UxInputTextBox.Name = "UxInputTextBox";
             this.UxInputTextBox.Size = new System.Drawing.Size(100, 20);
             this.UxInputTextBox.TabIndex = 0;
@@ -45,7 +45,7 @@
             // UxInputLabel
             // 
             this.UxInputLabel.AutoSize = true;
-            this.UxInputLabel.Location = new System.Drawing.Point(92, 27);
+            this.UxInputLabel.Location = new System.Drawing.Point(17, 29);
             this.UxInputLabel.Name = "UxInputLabel";
             this.UxInputLabel.Size = new System.Drawing.Size(85, 13);
             this.UxInputLabel.TabIndex = 3;
@@ -62,7 +62,7 @@
             // 
             // UxGoButton
             // 
-            this.UxGoButton.Location = new System.Drawing.Point(105, 96);
+            this.UxGoButton.Location = new System.Drawing.Point(27, 127);
             this.UxGoButton.Name = "UxGoButton";
             this.UxGoButton.Size = new System.Drawing.Size(75, 67);
             this.UxGoButton.TabIndex = 6;
@@ -72,7 +72,7 @@
             // 
             // UxResetButton
             // 
-            this.UxResetButton.Location = new System.Drawing.Point(105, 212);
+            this.UxResetButton.Location = new System.Drawing.Point(27, 200);
             this.UxResetButton.Name = "UxResetButton";
             this.UxResetButton.Size = new System.Drawing.Size(75, 23);
             this.UxResetButton.TabIndex = 7;
@@ -80,7 +80,7 @@
             this.UxResetButton.UseVisualStyleBackColor = true;
             this.UxResetButton.Click += new System.EventHandler(this.xResetButton_Click);
             // 
-            // Form1
+            // Exponents
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -90,7 +90,7 @@
             this.Controls.Add(this.UxOutputLabel);
             this.Controls.Add(this.UxInputLabel);
             this.Controls.Add(this.UxInputTextBox);
-            this.Name = "Form1";
+            this.Name = "Exponents";
             this.Text = "Exponents Demo";
             this.ResumeLayout(false);
             this.PerformLayout();
